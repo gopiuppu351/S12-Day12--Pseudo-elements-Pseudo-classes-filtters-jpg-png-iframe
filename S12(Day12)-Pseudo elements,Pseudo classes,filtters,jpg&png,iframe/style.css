@@ -1,0 +1,78 @@
+h1::first-line {
+    color: red;
+    font-size: 3rem;
+}
+
+p::first-letter{
+    color: cornflowerblue;
+    font-size: 3rem;
+}
+
+p::selection{
+    background-color: aquamarine;
+    color: red;
+}
+
+.player::before{
+    content: "🎤"
+}
+
+.player2::after{
+    content: "🎤"
+}
+
+ul li::marker{
+    content: "👪"
+}
+
+a{
+    font-size: 2rem;
+}
+
+
+a:link{
+    color: red;
+} 
+
+a:visited{
+    color: gray;
+}  
+
+
+a:hover{
+    background-color: darkgreen;
+    color: yellow;
+}
+
+a:active{
+    color: darkblue;
+    background-color: dodgerblue;
+}
+
+img{
+    width: 300px;
+    border: 2px solid black; 
+}
+
+img:hover{
+    /* box-shadow: 10px 10px 10px black; */
+    /* filter: drop-shadow(10px 10px 10px black); */
+    /* filter: invert(100%); */
+    /* filter: blur(5px); */
+    /* filter: brightness(200%); */
+    /* filter: contrast(150%); */
+    /* filter: grayscale(50%); */
+    /* filter: hue-rotate(90deg); */
+    /* filter: opacity(30%); */
+    /* filter: saturate(800%); */
+    filter: sepia(100%);    
+} 
+
+body{
+    background-color: lightblue;
+} 
+
+iframe{
+    width: 500px;
+    height: 500px;
+}
